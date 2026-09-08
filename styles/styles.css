@@ -10,11 +10,11 @@ nav a {
 }
 
 h1 {
-    color: darkblue;
+    color: darkcyan;
 }
 
 main {
-    max-width: 800px;
+    max-width: 500px;
 }
 
 main img {
@@ -30,10 +30,10 @@ p {
 }
 
 aside {
-    width: 500px;
-    margin: auto;
+    width: 20em;
+    margin: 1em;
     border: 1px solid black;
-    padding: 5px;
+    padding: 1em;
     background-color: lightgray;
     color: black;
     text-align: center;
