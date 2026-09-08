@@ -25,11 +25,6 @@ p {
     padding: 0;
 }
 
-main aside {
-    max-width: 500px;
-    border-bottom: 0px;
-}
-
 aside {
     width: 500px;
     margin: auto;
