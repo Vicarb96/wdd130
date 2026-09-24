@@ -5,10 +5,10 @@
 }
 
 :root {
-    --primary-color: darkblue;
-    --secondary-color: forestgreen;
-    --accent1-color: darkslateblue;
-    --accent2-color: lightyellow;
+    --primary-color: #00008b;
+    --secondary-color: #1d551d;
+    --accent1-color: #483d8b;
+    --accent2-color: rgb(207, 207, 168);
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -98,7 +98,7 @@ h2 {
     position: absolute;
     top: 180px;
     background-color: var(--accent1-color);
-    color: white;
+    color: #ffff;
     padding: 20px;
     width: 80%;
     display: flex;
@@ -110,6 +110,8 @@ h2 {
 .hero article img {
     width: 150px;
     height: auto;
+    float: right;
+    margin: 15px;
 }
 
 .grid {
@@ -127,7 +129,7 @@ h2 {
     grid-column: 1 / -1;
     text-align: center;
     background-color: var(--primary-color);
-    color: white;
+    color: #ffff;
     padding: 12px 0;
     margin: 0 0 20px 0;
     width: 100%;
@@ -154,7 +156,7 @@ h2 {
 .adventures h2 {
     text-align: center;
     background-color: var(--primary-color);
-    color: white;
+    color: #fff;
     padding: 10px;
     margin: 30px auto;
     width: 100%;
