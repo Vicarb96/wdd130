@@ -242,7 +242,7 @@ footer nav.socialmedia img {
     line-height: 1.2;
 }
 
-.map {
+.map-form-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
@@ -255,7 +255,6 @@ footer nav.socialmedia img {
 .map iframe {
     width: 450px;
     height: 550px;
-    min-width: none;
 }
 
 .contact-form {
@@ -296,8 +295,9 @@ footer nav.socialmedia img {
 }
 
 .employees-section {
-    max-width: 1000px;
-    margin: 1.5rem auto;
+    width: 100%;
+    max-width: 100%;
+    margin: 1.5rem 0;
     text-align: center;
     border: 1px solid #ccc;
     padding: 2rem;
@@ -313,6 +313,8 @@ footer nav.socialmedia img {
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
     align-items: start;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .employee-grid figure {
