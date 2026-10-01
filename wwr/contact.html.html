@@ -39,9 +39,8 @@ Author: Victor Carbajal -->
             <div class="map">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d36541.97145947047!2d-88.03972982077626!3d14.938363078867757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ses!2shn!4v1790870412452!5m2!1ses!2shn"
-                  width="600" height="450" allowfullscreen="" loading="lazy"
-                  referrerpolicy="strict-origin-when-cross-origin" width="400" height="300"
-                  allowfullscreen="" loading="lazy">
+                  width="600" height="450" style="border: 0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade">
                 </iframe>
             </div>
 
@@ -60,10 +59,24 @@ Author: Victor Carbajal -->
 
                 <div class="form-item">
                     <label for="options">Message Purpose</label>
-                    <input type="radio" id="general" name="options" required>General Inquiry
-                    <input type="radio" id="reservation" name="options" required>Reservation
-                    Question
-                    <input type="radio" id="suggestion" name="options" required>Website Suggestion
+
+                    <div class="radio-option">
+                        <input type="radio" id="general" name="purpose" value="general" required>
+                        <label for="general">General Inquiry</label>
+                    </div>
+
+                    <div class="radio-option">
+                        <input type="radio" id="reservation" name="purpose" value="reservation"
+                          required>
+                        <label for="reservation">Reservation Question</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="suggestion" name="purpose" value="suggestion"
+                          required>
+                        <label for="suggestion">Website Suggestion</label>
+                    </div>
+                </div>
                 </div>
 
                 <div class="form-item">
@@ -85,17 +98,17 @@ Author: Victor Carbajal -->
             <h2>We Are Here to Serve You</h2>
             <div class="employee-grid">
                 <figure>
-                    <img src="images/Victor-Carbajal.jpg" alt="Profile of Victor Carbajal">
+                    <img src="images/victor-carbajal.jpg" alt="Profile of Victor Carbajal">
                     <figcaption>Victor Carbajal - Manager</figcaption>
                 </figure>
 
                 <figure>
-                    <img src="images/Isme-Mendez.jpg" alt="Profile of Isme Mendez">
+                    <img src="images/isme-mendez.jpg" alt="Profile of Isme Mendez">
                     <figcaption>Isme - Safety Officer</figcaption>
                 </figure>
 
                 <figure>
-                    <img src="images/Miyuki.jpg" alt="Profile of Miyuki">
+                    <img src="images/miyuki.jpg" alt="Profile of Miyuki">
                     <figcaption>Miyuki - Lead Guide</figcaption>
                 </figure>
             </div>
