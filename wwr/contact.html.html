@@ -1,0 +1,123 @@
+<!-- Project week03 Rafting Site – About Us Page
+Author: Victor Carbajal -->
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>White Water Rafting | Contact Us Dry Oar River Experience - Contact Us</title>
+    <meta name="description"
+      content="Contact Dry Oar River Experience for inquiries, reservations, or feedback about our rafting trips.">
+    <meta name="author" content="Victor Carbajal">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/dryoarlogo.png" alt="Rafting experience logo" width="100">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="company-info">
+            <h1>Dry Oar River Experience</h1>
+            <p>123 Main River Street</p>
+            <p>Kolob California</p>
+            <p>+1 999 999 9999</p>
+            <p>info@dryoarriver.com</p>
+        </section>
+
+        <section class="map">
+            <div class="map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d36541.97145947047!2d-88.03972982077626!3d14.938363078867757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ses!2shn!4v1790870412452!5m2!1ses!2shn"
+                  width="600" height="450" allowfullscreen="" loading="lazy"
+                  referrerpolicy="strict-origin-when-cross-origin" width="400" height="300"
+                  allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+
+
+            <form class="contact-form">
+                <div class="form-item">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="username" placeholder="Your name" required>
+                </div>
+
+                <div class="form-item">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="useremail" placeholder="Your email"
+                      required>
+                </div>
+
+                <div class="form-item">
+                    <label for="options">Message Purpose</label>
+                    <input type="radio" id="general" name="options" required>General Inquiry
+                    <input type="radio" id="reservation" name="options" required>Reservation
+                    Question
+                    <input type="radio" id="suggestion" name="options" required>Website Suggestion
+                </div>
+
+                <div class="form-item">
+                    <label for="feedback">Message</label>
+                    <textarea id="feedback" name="feedback" rows="4"
+                      placeholder="Type here"></textarea>
+                </div>
+
+                <div class="checkbox-item">
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                    <label for="subscribe">Please Subscribe me to the monthly newsletter</label>
+                </div>
+
+                <button type="submit">Get in Touch!</button>
+            </form>
+        </section>
+
+        <section class="employees-section">
+            <h2>We Are Here to Serve You</h2>
+            <div class="employee-grid">
+                <figure>
+                    <img src="images/Victor-Carbajal.jpg" alt="Profile of Victor Carbajal">
+                    <figcaption>Victor Carbajal - Manager</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/Isme-Mendez.jpg" alt="Profile of Isme Mendez">
+                    <figcaption>Isme - Safety Officer</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/Miyuki.jpg" alt="Profile of Miyuki">
+                    <figcaption>Miyuki - Lead Guide</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2026
+            Dry Oar River Experience | Victor Carbajal</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.svg" alt="Facebook Icon" width="50">
+            </a>
+            <a href="https://linkedin.com">
+                <img src="images/linkedin.svg" alt="Linkedin Icon" width="50">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.svg" alt="Instagram Icon" width="50">
+            </a>
+        </nav>
+    </footer>
+
+
+</body>
+
+</html>
