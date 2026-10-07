@@ -252,6 +252,11 @@ footer nav.socialmedia img {
     padding: 0 1rem;
 }
 
+.newsletter h2,
+.newsletter label {
+    color: #ffffff;
+}
+
 .map iframe {
     width: 450px;
     height: 550px;
